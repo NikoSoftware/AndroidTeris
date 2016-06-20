@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:textSize="15sp"
+        android:text="游戏开发：\n\n
+&#160;&#160;游戏为个人独立开发，游戏运行结构：主要是传智播客简陋版本Java电脑版游戏视频教程（只有俄罗斯方块算法简单的实现），游戏背景图片和音乐是从网上获取的其他游戏的资源。游戏主要运用Android的activity，service
+和 SharedPreferences，Activity主要用于界面的实现，service和SharedPreferences主要用于背景音乐和游戏音效的配置。因为以前开发过网络版本的音乐播放器，所以俄罗斯方块的开发时间大概是10天。
+"
+        
+        />
+    
+
+</LinearLayout>
