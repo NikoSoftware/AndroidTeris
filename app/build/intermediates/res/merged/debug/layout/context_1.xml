@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="	游戏玩法：\n\n
+&#160;&#160;&#160;&#160; 1.	游戏共有四个动作，向上滑动，向下滑动，向左滑动，向右滑动。\n
+&#160;&#160;&#160;&#160; 2.	玩家可以做的操作有：以90度为单位旋转方块，以格子为单位左右移动方块，让方块加速落下。\n
+
+&#160;&#160;&#160;&#160; 3.	方块移到区域最下方或是着地到其他方块上无法移动时，就会固定在该处，而新的方块出现在区域上方开始落下。\n
+&#160;&#160;&#160;&#160; 4.	当区域中某一列横向格子全部由方块填满，则该列会消失并成为玩家的得分。同时删除的列数越多，得分指数上升。\n
+&#160;&#160;&#160;&#160; 5.	当固定的方块堆到区域最上方而无法消除层数时，则游戏结束。
+"
+        
+        />
+
+    
+
+</LinearLayout>

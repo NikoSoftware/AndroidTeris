@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/weixin_normal"
+            />
+        <TextView 
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏玩法"
+            
+            />
+        
+    </LinearLayout>
+     
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView 
+             android:id="@+id/img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+             android:src="@drawable/friends_normal"
+            />
+        <TextView 
+             android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开发说明"
+            
+            />
+        
+    </LinearLayout>
+     
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView 
+             android:id="@+id/img3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/find_normal"
+            />
+        <TextView 
+             android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模块介绍"
+            
+            />
+        
+    </LinearLayout>
+     
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <ImageView 
+             android:id="@+id/img4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/myself_normal"
+            />
+        <TextView 
+             android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            
+            />
+        
+    </LinearLayout>
+   
+   
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+     >
+    <LinearLayout 
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="#f0ffff"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="个人信息"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+             android:gravity="center"
+            />
+        
+    </LinearLayout>
+    <ImageView 
+           android:layout_height="50dp"
+           android:layout_width="match_parent"
+           android:background="@drawable/recordicon2"
+           />
+    
+    <ListView 
+        android:id="@+id/customList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+  
+        ></ListView>
+   
+     
+    
+
+</LinearLayout>
